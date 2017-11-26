@@ -47,7 +47,3 @@ V1.0 graphql-server-template
 ## Autor
 
 * **Juan Gajardo** - [jgajardon](https://github.com/jgajardon)
-
-## Licencia
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details

@@ -1,12 +1,12 @@
 {
   "name": "graphql",
   "version": "1.0.0",
-  "description": "Graphql Server de IGO Kia",
+  "description": "Graphql server template",
   "main": "server.js",
   "scripts": {
     "start": "nodemon --exec babel-node server.js"
   },
-  "author": "conduit",
+  "author": "jgajardo",
   "license": "ISC",
   "devDependencies": {
     "babel-cli": "^6.26.0",
