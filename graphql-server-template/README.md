@@ -24,7 +24,21 @@ Para instalar alguna libreria externa al proyecto ejecutar el siguiente comando
 npm install library --save
 ```
 
-con esto ya podra ver en linea el template.
+con esto ya podra ver en linea el servidor.
+
+### Testing
+
+Dirigase a su navegador web preferido y digite la url http://localhost:3001 y podra ejecutar los diferentes metodos disponible para el ejemplo "Producto" que trae la aplicación:
+
+```
+{
+    todosLosProductos{
+        _id
+        nombre
+        precio
+    }
+}
+```
 
 ## Versión
 

@@ -1,0 +1,20 @@
+type Producto {
+    _id: String
+    nombre: String!
+    precio: Int!
+    estado: Int!
+    createdAt: Float!
+    updatedAt: Float!
+  }
+  
+  extend type Query {
+    buscarProducto(id: String!): Producto
+    todosLosProductos: [Producto!]!
+  }
+  
+  extend type Mutation {
+    crearProducto(nombre: String!, precio: Int!): Producto!
+    actualizarProducto(id: String!, nombre: String, precio: Int): Producto
+    eliminarProducto(id: String!): Producto
+  }
+  
